@@ -27,9 +27,9 @@ namespace AutoMapper
             return destMap;
         }
 
-        public static void ContinueWith(this IMappable source, Action<IMappable> action)
+        public static void ContinueWith(this IMappable source, Action action)
         {
-            action?.Invoke(source);
+            action?.Invoke();
         }
     }
 }
