@@ -4,6 +4,7 @@ Rather than writing plumbing code to that for each class, we may simply use Auto
 
 # Instructions
 1)Import namespace AutoMapper
+
 2)Inherit classes to be mapped from AutoMap.IMappable
 
 #Example
@@ -41,7 +42,7 @@ Simply say
 Simply use ContinueWith after auto-mapping
 
 
-    m1.Map(m2).ContinueWith(d=> {
+    m1.Map(m2).ContinueWith(()=> {
                 m2.Foo3 = 3;
                 m2.Foo4 = 4;
             });
