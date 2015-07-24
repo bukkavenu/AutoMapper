@@ -1,6 +1,6 @@
 # AutoMapper
 In certian projects, we find a need to map from one object to another.
-Rather than writing plumbing code to that for each class, we may simply use AutoMapper
+Rather than writing plumbing code to do that for each class, we may simply use AutoMapper
 
 # Instructions
 1)Import namespace AutoMapper
