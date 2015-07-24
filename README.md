@@ -34,7 +34,7 @@ Rather than writing plumbing code to that for each class, we may simply use Auto
 
 #To Auto-map :
 Simply say 
-            m1.Map(m2);
+    m1.Map(m2);
 
 #If after auto-mapping, we need to override few values or to even set values that couldn't be auto-mapped:
 Simply use ContinueWith after auto-mapping
